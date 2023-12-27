@@ -31,11 +31,32 @@ for(int i=0;i<count;i++)
 {
 	String courseTitles=js.get("courses["+i+"].title");
 	System.out.println(courseTitles);
+	System.out.println(js.get("courses["+i+"].price").toString());
+	
 }
 
 
 
-//Verify if Sum of all Courses price matches with Purchase Amount 
+//Print no of copies sold by RPA Course
+
+System.out.println("Print no of copies slod by RPA Courses");
+
+for(int i=0;i<count;i++)
+{
+	String courseTitles=js.get("courses["+i+"].title");
+	if(courseTitles.equalsIgnoreCase("RPA"))
+	{
+		int copies=js.getInt("courses["+i+"].copies");
+		System.out.println(copies);
+		break;
+	}
+	
+	
+}
+
+
+
+
 
 	}
 
