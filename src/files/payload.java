@@ -90,8 +90,8 @@ public static String Addbook(String isbn, String aisle)
 	String payload="{\r\n"
 	+ "\r\n"
 	+ "\"name\":\"Sunil Kunwal\",\r\n"
-	+ "\"isbn\":\""+goli+"\",\r\n"
-	+ "\"aisle\":\""+123+"\",\r\n"
+	+ "\"isbn\":\""+isbn+"\",\r\n"
+	+ "\"aisle\":\""+aisle+"\",\r\n"
 	+ "\"author\":\"Sunil\"\r\n"
 	+ "}\r\n"
 	+ "";
