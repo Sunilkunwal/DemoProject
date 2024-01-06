@@ -18,12 +18,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/pc/Downloads/testng-7.8.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pc/Downloads/com.github.marschall.slf4j-equinox-2.0.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pc/Downloads/org.apache.directory.studio.slf4j-eclipselog-2.0.0.v20210717-M17-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pc/Downloads/jul-to-slf4j-2.0.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pc/Downloads/commons-logging-1.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pc/Downloads/commons-logging-1.3.0-tests.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pc/Downloads/commons-logging-1.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/pc/Downloads/commons-logging-1.3.0-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc/Downloads/slf4j-simple-2.1.0-alpha1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

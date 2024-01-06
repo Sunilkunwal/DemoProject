@@ -22,6 +22,9 @@ public class Basics {
 		//given - all input details
 		//when - Submit the API resorce, http method
 		//Then - validate the response
+		//content of the file to String-> content of file can convert into Byte->Byte data to String 
+		
+	
 		RestAssured.baseURI= "https://rahulshettyacademy.com";
 		String response=given().log().all().queryParam("key", "qaclick123").header("content-Type","application/json")
 		.body(payload.AddPlace()).when().post("maps/api/place/add/json")
